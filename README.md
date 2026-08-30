@@ -53,5 +53,5 @@ The project enabled the analysis of low-frequency noise characteristics in graph
 
 ## Repository Structure
 
-├── scripts
+├── scripts/
 └── README.md
