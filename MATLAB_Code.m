@@ -1,7 +1,7 @@
-% =Graphene Sample biased at 100nA current, data is aquired for 32 min========================================================================
-%  noise_psd_analysis_100na32minauto_logfit.m
-%  1/f Noise PSD Analysis — Graphene / Resistor Sample
-%
+% Graphene Sample biased at 100nA current, data is aquired for 32 min
+% Noise_psd_analysis_100na32minauto_logfit.m
+% 1/f Noise PSD Analysis — Graphene / Resistor Sample
+
 %  Pipeline:
 %    1. Load raw X (in-phase) and Y (quadrature) lock-in data
 %    2. 3-stage Kaiser FIR decimation  (1024 Hz -> 32 Hz)
