@@ -53,5 +53,7 @@ The project enabled the analysis of low-frequency noise characteristics in graph
 
 ## Repository Structure
 
-├── scripts/
+Repository Structure
+
+├── MATLAB_Code.m 
 └── README.md
