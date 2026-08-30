@@ -1,5 +1,5 @@
 % Graphene Sample biased at 100nA current, data is aquired for 32 min
-% Noise_psd_analysis_100na32minauto_logfit.m
+% Noise_psd_analysis_100na32min_logfit.m
 % 1/f Noise PSD Analysis — Graphene / Resistor Sample
 
 %  Pipeline:
@@ -17,7 +17,7 @@
 %            Curve Fitting Toolbox, Statistics & ML Toolbox
 %
 %  Author : Generated for graphene 1/f noise experiment
-%  Data   : xdata100na32minauto, ydata100na32minauto  (1966080 samples, 1024 Hz)
+%  Data   : xdata100na32min, ydata100na32min  (1966080 samples, 1024 Hz)
 % =========================================================================
 
 clear; clc; close all;
@@ -34,8 +34,8 @@ T_SAMPLE    = 300;         % Sample temperature (K)
 I_BIAS      = 100e-9;      % Bias current (A) — update per dataset
 % R_SAMPLE computed from data after loading: R = mean(raw_X) / I_BIAS
 SNR_THRESH  = 3;           % SNR threshold for valid fitting region
-XFILE       = 'xdata100na32minauto';   % X channel data file
-YFILE       = 'ydata100na32minauto';   % Y channel data file
+XFILE       = 'xdata100na32min';   % X channel data file
+YFILE       = 'ydata100na32min';   % Y channel data file
 
 % Welch PSD parameters
 NFFT_SEGS   = 8;           % Number of segments for Welch (more = smoother PSD)
