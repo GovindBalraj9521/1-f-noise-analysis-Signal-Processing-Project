@@ -1,4 +1,4 @@
-% =========================================================================
+% =Graphene Sample biased at 100nA current========================================================================
 %  noise_psd_analysis_100na32minauto_logfit.m
 %  1/f Noise PSD Analysis — Graphene / Resistor Sample
 %
